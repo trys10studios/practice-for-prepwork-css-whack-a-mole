@@ -3,31 +3,32 @@
 .wgs {
   display: inline-block;
   position: relative;
-  height: 482px;
-  width: 640px;
+  height: 241px;
+  width: 320px;
 }
 
 .wgs__mole-head {
   position: absolute;
-  height: 356px;
-  width: 376px;
-  left: 109px;
+  height: 178px;
+  width: 188px;
+  left: 55px;
+  overflow: hidden;
+  transition: margin-top .25s;
 }
 
 .wgs__dirt-pile {
   position: absolute;
-  height: 220px;
-  width: 640px;
+  height: 110px;
+  width: 320px;
   bottom: 0px;
 }
 
 .wgs__mole-head--hidden {
   position: absolute;
-  margin-top: 485px;
-  height: 356px;
-  width: 376px;
-  left: 109px;
+  margin-top: 241px;
 }
+
+.pf {}
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
