@@ -1,4 +1,11 @@
 /* Your code here */
+
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
 /*(short for "whackable game space")*/
 .wgs {
   display: inline-block;
@@ -27,9 +34,6 @@
   position: absolute;
   margin-top: 241px;
 }
-
-.pf {}
-
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
