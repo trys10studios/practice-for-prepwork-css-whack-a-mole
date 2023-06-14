@@ -19,9 +19,10 @@ function popUpRandomMole() {
   const moleHead = moleHeads[moleIndex];
 
   clickable = true;
+  moleHead.style.backgroundColor = 'white';
 
   // UNCOMMENT THIS LINE OF CODE WHEN DIRECTED
-  // moleHead.classList.remove('wgs__mole-head--hidden', 'wgs__mole-head--whacked');
+  moleHead.classList.remove('wgs__mole-head--hidden', 'wgs__mole-head--whacked');
 
   molesLeft -= 1;
   document.querySelector('.sb__moles').innerHTML = molesLeft;
@@ -52,10 +53,11 @@ window.addEventListener('DOMContentLoaded', () => {
       hideMole(event.target);
 
       // UNCOMMENT THIS LINE OF CODE WHEN DIRECTED
-      // event.target.classList.add('wgs__mole-head--hidden');
+      event.target.classList.add('wgs__mole-head--hidden');
 
       // UNCOMMENT THIS LINE OF CODE WHEN DIRECTED FOR THE BONUS
-      // event.target.classList.add('wgs__mole-head--whacked');
+      event.target.classList.add('wgs__mole-head--whacked');
+      moleHead.style.backgroundColor = 'red';
     });
   }
 });
