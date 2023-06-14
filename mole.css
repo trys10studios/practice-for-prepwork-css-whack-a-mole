@@ -1,5 +1,26 @@
 /* Your code here */
+.wgs
 
+/*(short for "whackable game space")*/
+  {
+  position: relative;
+  height: 482px;
+  width: 640px;
+}
+
+.wgs__mole-head {
+  position: absolute;
+  height: 356px;
+  width: 376px;
+  left: 109px
+}
+
+.wgs__dirt-pile {
+  position: absolute;
+  height: 220px;
+  width: 640px;
+  top: 262px;
+}
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
