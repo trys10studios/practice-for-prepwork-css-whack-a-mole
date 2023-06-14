@@ -1,8 +1,7 @@
 /* Your code here */
-.wgs
-
 /*(short for "whackable game space")*/
-  {
+.wgs {
+  display: inline-block;
   position: relative;
   height: 482px;
   width: 640px;
@@ -12,14 +11,22 @@
   position: absolute;
   height: 356px;
   width: 376px;
-  left: 109px
+  left: 109px;
 }
 
 .wgs__dirt-pile {
   position: absolute;
   height: 220px;
   width: 640px;
-  top: 262px;
+  bottom: 0px;
+}
+
+.wgs__mole-head--hidden {
+  position: absolute;
+  margin-top: 485px;
+  height: 356px;
+  width: 376px;
+  left: 109px;
 }
 
 
